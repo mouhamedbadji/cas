@@ -9,4 +9,17 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
-.Jumbotron{Background-image: liner-gradient(https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo}
+
+/* class="jumbotron" */
+.jumbotron {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://cdn.glitch.com/e19029a5-297c-43ab-b71b-f8372343e22d%2Fpexels-pixabay-267885.jpg?v=1597254149260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
